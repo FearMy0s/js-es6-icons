@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <div class="banner">
+        <div>
+            <select class="select" name="select">
+                <option value="all">All</option>
+                <option value="animal">Animal</option>
+                <option value="vegetable">Vegetable</option>
+                <option value="user">User</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+        <template id="tpl-box">
+        <div class="box">
+            <i></i>
+            <span></span>
+        </div>
+        </template>
+    </div>
+</main>
+
+    <script src="data.js"></script>
+</body>
+</html>
+<!--Milestone 1
+Partendo dalla struttura dati fornita, visualizzare in pagina un box per ogni icona, in cui è presente il nome dell'icona e l'icona stessa.
+Milestone 2
+Ciascuna icona ha una proprietà "color": utilizzare questa proprietà per visualizzare le icone del colore corrispondente.
+Milestone 3
+Aggiungere alla pagina una select in cui le options corrispondono ai vari tipi di icone (animal, vegetable, user). Quando l'utente seleziona un tipo dalla select, visualizzare solamente le icone corrispondenti.
+-->
